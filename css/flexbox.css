@@ -62,6 +62,9 @@ body {
 	flex: 1;
 	padding: 1rem;
 	order:1;
+
+	width: 290px;
+	margin: 20px 45px;
   text-align: center;
   transition: border-color 0.3s;
 }
@@ -85,6 +88,42 @@ body {
 	flex: 1;
 	padding: 1rem;
 	order:3;
+  width: 290px;
+  margin: 20px 45px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.product-grid-item4 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:4;
+  width: 290px;
+  margin: 20px 45px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.product-grid-item5 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:5;
+  width: 290px;
+  margin: 20px 45px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.product-grid-item6 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:6;
   width: 290px;
   margin: 20px 45px;
   text-align: center;
