@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  font-family: "Gelica", sans-serif;
+  font-family: "gelica", sans-serif;
   font-weight: 800;
   font-size: 64px;
   margin-top: 3rem;
@@ -23,21 +23,21 @@ h1 {
 }
 
 h2 {
-  font-family: "Gelica", sans-serif;
+  font-family: "WorkSans", sans-serif;
   font-weight: 700;
   font-size: 32px;
   margin-top: 2rem;
 }
 
 h3 {
-  font-family: "Gelica", sans-serif;
+  font-family: "WorkSans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin-top: 1rem;
 }
 
 h4 {
-  font-family: "Gelica", sans-serif;
+  font-family: "WorkSans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 1rem;
