@@ -223,6 +223,24 @@ img:hover {
   background-color: #fcf9f5;
 }
 
+.input-textarea{
+ width: 100%;
+  margin-bottom: 20px;
+  padding: 2rem;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: #fcf9f5;
+}
+
+.input-textarea-email{
+ width: 100%;
+  margin-bottom: 10px;
+  padding: 0.6rem;
+  border: 1px solid #422e18;
+  border-radius: 10px;
+  background-color: #fcf9f5;
+}
+
 .input-fill:hover{
    width: 40%;
   margin-bottom: 20px;
