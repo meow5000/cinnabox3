@@ -465,6 +465,13 @@ hr{
   padding:5rem;
 }
 
+.events-element{
+  width: 100%;
+  display: inline-block;
+  background-color: #EF9CA7;
+  padding:5rem;
+}
+
 .container {
  display: grid;
  align-items: center;
