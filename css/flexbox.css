@@ -20,6 +20,7 @@
 	min-width: 100%:
 }
 
+/*
 .grid-row::after {
 	content: "";
 	display: block;
@@ -33,6 +34,7 @@
 
 }
 
+*/
 body {
 	/* padding if add nav bar*/
 	padding-top: 2rem;
@@ -372,13 +374,10 @@ body {
 }
 
 
-/* at 40em window browser size make product listing image in second order */
-@media (min-width: 40em) {
-	/*
-	.product-listing-item-image {
-		-webkit-order: 2;
-		-ms-order: 2;
-		order: 2;
+/* when browser  */
+@media (max-width: 200em) {
+
+	.product-grid-item2 {
+		z-index: :6;
 	}
-	*/
 }

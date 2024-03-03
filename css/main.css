@@ -14,6 +14,10 @@ body {
   border-top-color: #422E18;
 }
 
+.styleguide_margin{
+  margin: 3rem 3rem;
+}
+
 h1 {
   font-family: "gelica", sans-serif;
   font-weight: 800;
@@ -48,12 +52,7 @@ p {
 }
 
 .main-nav-div {
-  background-color: #f5ece1;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 10;
-
+padding-top: 2rem;
   /*entire window */
   min-width: 100%;
 }
