@@ -306,8 +306,8 @@ label {
 }
 
 .product-desc-img{
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   text-align: center;
   transition: border-color 0.3s;
   padding:1rem;
