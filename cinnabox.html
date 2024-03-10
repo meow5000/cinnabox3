@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,11 +15,12 @@
 
   </head>
 
-<body>
 <div class="styleguide_margin">
-  
+  <body>
+
     <header>
-        <div class="nav3-div nav-div-lock">
+
+        <div class="nav3-div" class="nav-div-lock">
         <nav>
 
           <div>
@@ -114,10 +116,10 @@
 
         <h4>Log in</h4>
           <form action="/action_page.php">
-            <label for="email2" class="login-label">Email:</label>
-            <input class="input-fill login-input" type="text" id="email2" name="email"><br>
+            <label for="email1" class="login-label">Email:</label>
+            <input class="input-fill" type="text" id="email1" class="login-input" name="email"><br>
             <label for="password" class="login-label">Password:</label>
-              <input class="input-fill login-input" type="text" id="password" name="Password"><br>
+              <input class="input-fill" type="text" id="password" class="login-input" name="Password"><br>
             <input class="button-nav" type="submit" value="Submit">
             <input class="button-nav" type="reset" value="Reset">
           </form>
@@ -282,7 +284,7 @@
          </div>
 
          <div>
-         <a href="homepage.html" id="nav-logo-styleguide"> ❤ CINNABOX ❤  </a>
+         <a href="homepage.html" id="nav-logo"> ❤ CINNABOX ❤  </a>
          </div>
 
         </nav>
@@ -303,7 +305,7 @@
       <div class="product-grid">
         <div class="product-grid-item1">
         <figure>
-          <a class="product-img" href="productdescription.html"><img src="img/BlindBox1.png" class="productimg" alt="cinnaboxOG"></a>
+          <a class="product-img" href="productdescription.html"><img src="img/BlindBox1.png" class="productimg"></a>
         </figure>
         <h4>Cinnamoroll Blind Box - Original</h4>
         <p>Price: $15</p>
@@ -476,14 +478,12 @@
               </label>
             </li>
 
-            <li class="li-payment">
             <label for="save_yes_no">Same as Shipping</label>
             <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
             <input type="checkbox">
-            </li>
 
             <li class="li-payment">
-              <input class="button-nav submit" type="Submit" value="SUBMIT">
+              <input class="button-nav" type="Submit" class="submit" value="SUBMIT">
             </li>
 
             </ul>
@@ -521,6 +521,8 @@
           <p>1x $15.00</p>
         </div>
 
+        </div>
+
         <div class="checkout-box2">
 
           <div class="checkout-box2-item-image">
@@ -547,10 +549,12 @@
             <h4> Cinnaroll Box Party</h4>
             <p>1x $15.00</p>
           </div>
+
         </div>
 
         <div class="checkout-box4-item">
           <!--https://www.javatpoint.com/how-to-add-a-line-in-html-->
+          <hr size="2" width="100%" color="black">
           <h4>Total: $45.00</h4>
           <a class="button-nav" href="#">CHECKOUT</a>
         </div>
@@ -605,7 +609,6 @@
       <h4>Sample code:</h4>
       <code>&lt;a href="#home"Home/a a href="#blind_boxes"Blind Boxes/a a href="#collections"Collections/a &gt;</code>
 
-      <footer>
       <div class="footer-grid" >
       <div class="footer-item1">
         <h4> ❤ABOUT US❤ </h4>
@@ -633,18 +636,15 @@
 
         <form action="/action_page.php">
           <label for="email1" class="login-label">Email:</label>
-          <input class="input-textarea-email login-input" type="text" id="email1" name="email"><br>
+          <input class="input-textarea-email" type="text" id="email1" class="login-input" name="email"><br>
 
-          <label for="message" class="login-label">Input Message:</label>
-            <input class="input-textarea login-input" type="text" id="message"  name="Password"><br>
+            <input class="input-textarea" type="textarea" id="password" class="login-input" placeholder="Ask us any questions!" name="Password"><br>
           <input class="button-nav" type="submit" value="SUBMIT">
         </form>
 
       </div>
       </div>
-      </footer>
 
-    </section>
     </section>
 
     <!-- CITATIONS -->
@@ -661,6 +661,7 @@
         <li><a href="https://www.w3schools.com/tags/tag_label.asp">https://www.w3schools.com/tags/tag_label.asp</a>.</li>
         <li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio">https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio</a>.</li>
         <li><a href="https://hellokitty.fandom.com/wiki/Cinnamoroll">https://hellokitty.fandom.com/wiki/Cinnamoroll</a>.</li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale">https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale</a>.</li>
       </ul>
 
     </section>
@@ -668,3 +669,4 @@
   </body>
 
 </html>
+
