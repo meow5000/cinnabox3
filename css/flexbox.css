@@ -17,7 +17,7 @@
 	justify-content: space-around;
 	flex-direction: column;
 
-	min-width: 100%:
+	min-width: 100%;
 }
 
 /*
@@ -229,7 +229,8 @@ body {
 	flex: 1;
 	padding: 1rem;
 	order:1;
-	align-self: left;
+	width:100%;
+	color: black;
 }
 
 /* FOOTER */
@@ -371,13 +372,4 @@ body {
 	flex: 1;
 	padding: 1rem;
 	order:2;
-}
-
-
-/* when browser  */
-@media (max-width: 200em) {
-
-	.product-grid-item2 {
-		z-index: :6;
-	}
 }
