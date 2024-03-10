@@ -180,9 +180,12 @@
             </label>
           </li>
 
+          <li class="li-payment">
           <label for="save_yes_no">Same as Shipping</label>
           <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
           <input type="checkbox">
+          </li>
+
           </ul>
           </fieldset>
 
@@ -241,7 +244,6 @@
 
             <div class="checkout-box4-item">
               <!--https://www.javatpoint.com/how-to-add-a-line-in-html-->
-              <hr size="2" width="100%" color="black">
               <h4>Total: $45.00</h4>
               <a class="button-nav" href="#">CHECKOUT</a>
             </div>
@@ -279,15 +281,16 @@
 
         <form action="/action_page.php">
           <label for="email1" class="login-label">Email:</label>
-          <input class="input-textarea-email" type="text" id="email1" class="login-input" name="email"><br>
+          <input class="input-textarea-email login-input" type="text" id="email1" name="email"><br>
 
-            <input class="input-textarea" type="textarea" id="password" class="login-input" placeholder="Ask us any questions!" name="Password"><br>
+          <label for="message" class="login-label">Input Message:</label>
+            <input class="input-textarea login-input" type="text" id="message"  name="Password"><br>
           <input class="button-nav" type="submit" value="SUBMIT">
         </form>
 
       </div>
       </div>
-    </footer>
+      </footer>
     </section>
 
   </body>
