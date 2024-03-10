@@ -450,6 +450,13 @@ hr{
   padding:5rem;
 }
 
+.bio-element2{
+  width: 100%;
+  display: inline-block;
+  padding:1rem;
+  padding-left:5rem;
+}
+
 .checkout-background{
   width: 100%;
   display: inline-block;
