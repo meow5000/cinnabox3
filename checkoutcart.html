@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- comment-->
+
   <head>
 
     <meta charset="utf-8">
@@ -180,12 +180,9 @@
             </label>
           </li>
 
-          <li class="li-payment">
           <label for="save_yes_no">Same as Shipping</label>
           <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
           <input type="checkbox">
-          </li>
-
           </ul>
           </fieldset>
 
@@ -201,7 +198,7 @@
             <div class="checkout-box-item-image">
 
               <figure>
-              <img src="img/BlindBox1.png" class="img-checkout" alt="melody slippers">
+              <img src="img/BlindBox1.png" href="productlisting.html" class="img-checkout" alt="melody slippers">
               </figure>
 
             </div>
@@ -217,7 +214,7 @@
 
               <div class="checkout-box2-item-image">
                 <figure>
-                <img src="img/BlindBox2.png" class="img-checkout" alt="hello kitty slippers">
+                <img src="img/BlindBox2.png" href="productlisting2.html" class="img-checkout" alt="hello kitty slippers">
                 </figure>
               </div>
 
@@ -231,7 +228,7 @@
             <div class="checkout-box3">
               <div class="checkout-box3-item-image">
                 <figure>
-                <img src="img/BlindBox3.png" class="img-checkout" alt="hello kitty slippers">
+                <img src="img/BlindBox3.png" href="productlisting3.html" class="img-checkout" alt="hello kitty slippers">
                 </figure>
               </div>
 
@@ -244,8 +241,9 @@
 
             <div class="checkout-box4-item">
               <!--https://www.javatpoint.com/how-to-add-a-line-in-html-->
+              <hr size="2" width="100%" color="black">
               <h4>Total: $45.00</h4>
-              <a class="button-nav" href="#">CHECKOUT</a>
+              <a class="button-nav" href="thankyoupage.html">SUBMIT ORDER</a>
             </div>
             </div>
         </div>
@@ -253,7 +251,6 @@
 
     <!-- footer -->
     <section id="footer">
-      <footer>
       <div class="footer-grid" >
       <div class="footer-item1">
         <h4> ❤ABOUT US❤ </h4>
@@ -281,16 +278,14 @@
 
         <form action="/action_page.php">
           <label for="email1" class="login-label">Email:</label>
-          <input class="input-textarea-email login-input" type="text" id="email1" name="email"><br>
+          <input class="input-textarea-email" type="text" id="email1" class="login-input" name="email"><br>
 
-          <label for="message" class="login-label">Input Message:</label>
-            <input class="input-textarea login-input" type="text" id="message"  name="Password"><br>
+            <input class="input-textarea" type="textarea" id="password" class="login-input" placeholder="Ask us any questions!" name="Password"><br>
           <input class="button-nav" type="submit" value="SUBMIT">
         </form>
 
       </div>
       </div>
-      </footer>
     </section>
 
   </body>
