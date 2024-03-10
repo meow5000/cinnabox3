@@ -151,18 +151,17 @@ padding-top: 2rem;
 
 .nav-item:active, .nav-item:hover, .nav-item:focus, .main-nav-item:active, .main-nav-item:hover, .main-nav-item:focus, .nav-item1:active, .nav-item1:hover, .nav-item1:focus, .nav-item2:active, .nav-item2:hover, .nav-item2:focus, .nav-item3:active, .nav-item3:hover, .nav-item3:focus
 .nav-item4:active, .nav-item4:hover, .nav-item4:focus {
-  color: #fcf9f5;;
+;
   background-color: #f7c8ce;
   text-decoration: underline;
 }
 
 .nav-item:active, .nav-item:hover, .nav-item:focus, .main-nav-item:active, .main-nav-item:hover, .main-nav-item:focus, .nav-item1:active, .nav-item1:hover, .nav-item1:focus, .nav-item2:active, .nav-item2:hover, .nav-item2:focus, .nav-item3:active, .nav-item3:hover, .nav-item3:focus {
-  color: #fcf9f5;;
+
   background-color: #f7c8ce;
   text-decoration: underline;
 }
 
-/* stroke: https://css-tricks.com/almanac/properties/t/text-stroke/*/
 #nav-logo{
   flex: 2;
   order: 1;
@@ -174,7 +173,6 @@ padding-top: 2rem;
   font-size: 1rem;
   font-family: "Gelica", sans-serif;
   font-size: 1rem;
-  text-stroke: 4px white;
 }
 
 /* payment*/
@@ -183,12 +181,11 @@ padding-top: 2rem;
 }
 
 .payment-size{
-  width: 60%:
+  width: 60%;
 }
 .text-link:hover, .text-link:focus{
   color: #f5ece1;
 }
-
 
 .footer-link{
   color: #FCF9F5;
@@ -205,15 +202,18 @@ code {
   display: block;
 }
 
-/* source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
+/* source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+source: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale*/
 img:hover {
-  scale: 0.95;
+  transform: scale(0.9);
   opacity: 0.2;
   transition: .5s ease;
 }
 
+
+
 .input-fill{
- width: 40%;
+  width: 40%;
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #422e18;
@@ -267,7 +267,6 @@ img:hover {
 .img-checkout {
   width: 150px;
   height: 150px;
-  align-self: left;
 
 }
 
@@ -287,7 +286,7 @@ img:hover {
 }
 
 fieldset{
-  border-color: 422E18;
+  border-color: #422E18;
 }
 
 label {
@@ -304,8 +303,8 @@ label {
 }
 
 .product-desc-img{
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   text-align: center;
   transition: border-color 0.3s;
   padding:1rem;
@@ -448,6 +447,21 @@ hr{
   padding:5rem;
 }
 
+.bio-element2{
+  width: 100%;
+  display: inline-block;
+  padding:1rem;
+  padding-left:5rem;
+}
+
+.bio-element3{
+  width: 100%;
+  display: inline-block;
+  padding-top:5rem;
+  padding-left:5rem;
+  padding-bottom:2rem;
+}
+
 .checkout-background{
   width: 100%;
   display: inline-block;
@@ -464,13 +478,14 @@ hr{
   width: 100%;
   display: inline-block;
   background-color: #F5ECE1;
-  padding:5rem;
+  padding-left:5rem;
+  padding-right:5rem;
 }
 
 .events-element{
   width: 100%;
   display: inline-block;
-  background-color: #EF9CA7;
+  background-color: #f7c8ce;
   padding:5rem;
 }
 
