@@ -17,9 +17,10 @@
 	justify-content: space-around;
 	flex-direction: column;
 
-	min-width: 100%:
+	min-width: 100%;
 }
 
+/*
 .grid-row::after {
 	content: "";
 	display: block;
@@ -33,6 +34,7 @@
 
 }
 
+*/
 body {
 	/* padding if add nav bar*/
 	padding-top: 2rem;
@@ -62,6 +64,9 @@ body {
 	flex: 1;
 	padding: 1rem;
 	order:1;
+
+	width: 290px;
+	margin: 20px 45px;
   text-align: center;
   transition: border-color 0.3s;
 }
@@ -85,6 +90,42 @@ body {
 	flex: 1;
 	padding: 1rem;
 	order:3;
+  width: 290px;
+  margin: 20px 45px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.product-grid-item4 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:4;
+  width: 290px;
+  margin: 20px 45px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.product-grid-item5 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:5;
+  width: 290px;
+  margin: 20px 45px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.product-grid-item6 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:6;
   width: 290px;
   margin: 20px 45px;
   text-align: center;
@@ -188,7 +229,8 @@ body {
 	flex: 1;
 	padding: 1rem;
 	order:1;
-	align-self: left;
+	width:100%;
+	color: black;
 }
 
 /* FOOTER */
@@ -223,8 +265,8 @@ body {
 .footer-item1 {
 	-webkit-flex: 1;
 	-ms-flex: 1;
-	flex: 2;
-	padding: 1rem;
+	flex: 1;
+	padding: 0.7rem;
 	order:1;
   text-align: center;
   transition: border-color 0.3s;
@@ -254,7 +296,7 @@ body {
 .footer-item3 {
 	-webkit-flex: 1;
 	-ms-flex: 1;
-	flex: 1;
+	flex: 2;
 	padding: 1rem;
 	order:3;
   /*width: 290px;*/
@@ -298,14 +340,36 @@ body {
 	order:2;
 }
 
+/* product desc grid */
+.product-desc-grid {
 
-/* at 40em window browser size make product listing image in second order */
-@media (min-width: 40em) {
-	/*
-	.product-listing-item-image {
-		-webkit-order: 2;
-		-ms-order: 2;
-		order: 2;
-	}
-	*/
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+	flex-direction: row;
+
+}
+
+.product-desc-item1{
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:1;
+}
+
+.product-desc-item2{
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 1rem;
+	order:2;
 }
