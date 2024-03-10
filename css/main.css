@@ -466,7 +466,8 @@ hr{
   width: 100%;
   display: inline-block;
   background-color: #F5ECE1;
-  padding:5rem;
+  padding-left:5rem;
+  padding-right:5rem;
 }
 
 .events-element{
